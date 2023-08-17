@@ -47,3 +47,16 @@ body {
   display: flex;
 }
 /* the check-out is for the left-side which will mainly be set to display-none at :default */
+
+/* the below code is for the food-items section */
+#items-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px solid grey;
+}
+
+.food-list {
+  height: 60px;
+  width: 100px;
+  margin: 5px solid white;
+}
