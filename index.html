@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Megabite</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b090916263.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- all the navigation symbol will be gotten from google font api -->
+    <div id="nav">
+      <div id="search" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+        </div>
+        <span>Search</span>
+      </div>
+      <div id="transf" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-money-bill-transfer fa-2xl"></i>
+        </div>
+        <span>Transfer</span>
+      </div>
+      <div id="disconnect" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-divide fa-rotate-30 fa-2xl"></i>
+        </div>
+        <span>Disconnect</span>
+      </div>
+      <div id="new-sale" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-plus fa-2xl"></i>
+        </div>
+        <span>New Sale</span>
+      </div>
+      <div id="refund" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-share-from-square fa-2xl"></i>
+        </div>
+        <span>Refund</span>
+      </div>
+      <div id="cash-drawer" class="topper">
+        <div class="icon">
+          <i class="fa-solid fa-folder-open fa-2xl"></i>
+        </div>
+        <span>Cash drawer</span>
+      </div>
+      <div id="save-file" class="topper">
+        <div class="icon2">F9</div>
+        <span>Save file</span>
+      </div>
+      <div id="payment" class="topper">
+        <div class="icon2">F10</div>
+        <span>Payment</span>
+      </div>
+      <div id="cash" class="topper">
+        <div class="icon2">F12</div>
+        <span>Cash</span>
+      </div>
+
+      <div id="bars" class="topper"><i class="fa-solid fa-bars fa-2xl"></i></div>
+    </div>
+
+    <!-- the bottom section. This div (container) wraps the check-out and the item-lists. -->
+    <div id="container">
+      <!-- the check-out div is for the left side  -->
+      <div id="check-out">
+        <span></span>
+        <!-- the div container for the buttons at the very bottom of the check-out -->
+        <div class="btn-wrap">
+          <button>CHECK OUT</button>
+          <button>CANCEL</button>
+        </div>
+      </div>
+      <!-- the list of items at the right  -->
+      <div id="order-list">
+        <div items-search></div>
+        <!-- the item list contains 20 unique items which are offered in the food menu -->
+        <div id="items-list">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

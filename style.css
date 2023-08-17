@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #373747;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+}
+#nav {
+  display: flex;
+}
+.topper {
+  width: 80px;
+  height: 60px;
+  margin: 2px;
+  border: 1px solid rgb(249, 235, 235);
+  background-color: #181822;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+}
+.icon {
+  margin-bottom: 10px;
+}
+.icon2 {
+  margin: 0px;
+  font-size: 20px;
+}
+.topper:hover {
+  background-color: #398139;
+  border: none;
+}
+#bars {
+  background-color: #373747;
+  border: none;
+  margin-left: 300px;
+}
+#cash,
+#payment,
+#save-file {
+  width: 100px;
+}
+/* the above css code is for the top-section or nav */
+#container {
+  display: flex;
+}
+/* the check-out is for the left-side which will mainly be set to display-none at :default */
