@@ -47,16 +47,30 @@ body {
   display: flex;
 }
 /* the check-out is for the left-side which will mainly be set to display-none at :default */
-
+#check-out {
+  width: 500px;
+  border: 1px solid white;
+}
 /* the below code is for the food-items section */
+#order-list {
+  display: flex;
+  flex-direction: column;
+}
 #items-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px solid grey;
 }
-
 .food-list {
-  height: 60px;
-  width: 100px;
-  margin: 5px solid white;
+  height: 150px;
+  width: 200px;
+  border: 1px solid white;
+}
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+input {
+  width: 500px;
+  height: 20px;
 }
