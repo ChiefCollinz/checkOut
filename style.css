@@ -61,9 +61,14 @@ body {
   flex-wrap: wrap;
 }
 .food-list {
-  height: 150px;
+  height: 200px;
   width: 200px;
   border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
 }
 img {
   width: 200px;
@@ -72,5 +77,21 @@ img {
 }
 input {
   width: 500px;
-  height: 20px;
+  height: 30px;
+  background-color: #373747;
+}
+.bottom {
+  height: 35px;
+  width: 45px;
+  border: 1px solid white;
+}
+.items-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#searcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
